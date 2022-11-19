@@ -1,0 +1,52 @@
+*{
+    background-color: rgb(238, 149, 192);
+    height: 50vh;
+}
+bory {
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    min-height:100vh;
+    margin: 0;
+}
+
+
+.text {
+    font-size: x-large;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: blueviolet;
+    text-align: center;
+    margin-top: 50px;
+   
+ }
+
+ .coracao{
+    position: relative;
+    bottom: 60%;
+    left: 35%;
+    background-size: cover;
+   
+ }
+ .coracao {
+ animation: pulsar 1s linear infinite;
+   }
+
+@keyframes pulsar {
+100% {
+    transform: scale(1.0);
+    opacity: 1;
+    
+    }
+50% {
+   transform: scale(0.9);
+   opacity: 0.8;
+   
+    }
+25% {
+   transform: scale(0.8);
+   opacity: 0.5;
+   }
+}
+
+ 
+
